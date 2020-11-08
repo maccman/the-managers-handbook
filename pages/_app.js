@@ -1,5 +1,5 @@
 import '../styles.css'
-import 'nextra-theme-docs/style.css'
+import 'nextra-theme-book/style.css'
 
 export default function Nextra({ Component, pageProps }) {
   return (

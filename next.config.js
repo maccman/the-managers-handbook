@@ -1,4 +1,4 @@
-const withNextra = require('nextra')('nextra-theme-docs', './theme.config.js')
+const withNextra = require('nextra')('nextra-theme-book', './theme.config.js')
 const withOffline = require('next-offline')
 
 const nextConfig = {

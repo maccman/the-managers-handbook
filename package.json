@@ -19,6 +19,7 @@
     "next": "^10.0.0",
     "next-offline": "^5.0.3",
     "nextra": "^0.2.7",
+    "nextra-theme-book": "maccman/nextra-theme-book",
     "nextra-theme-docs": "^0.2.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
