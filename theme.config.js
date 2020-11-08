@@ -9,37 +9,12 @@ const Vercel = ({ height = 20 }) => (
 )
 
 export default {
-  github: 'https://github.com/vercel/swr',
-  siteGithub: 'https://github.com/vercel/swr-site',
-  titleSuffix: ' – SWR',
+  titleSuffix: ' – The Manager\'s Handbook',
   logo: <>
-    <span className="mx-2 font-bold hidden md:inline tracking-wide text-xl">The Manager's Handbook</span>
+    <span className="mx-2 font-bold hidden md:inline tracking-wide text-2xl">The Manager's Handbook</span>
   </>,
   head: <>
     {/* Favicons, meta */}
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="/favicon/site.webmanifest" />
-    <link
-      rel="mask-icon"
-      href="/favicon/safari-pinned-tab.svg"
-      color="#000000"
-    />
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="theme-color" content="#ffffff" />
     <meta
@@ -49,30 +24,22 @@ export default {
     <meta httpEquiv="Content-Language" content="en" />
     <meta
       name="description"
-      content="SWR is a React Hooks library for data fetching. SWR first returns the data from cache (stale), then sends the fetch request (revalidate), and finally comes with the up-to-date data again."
+      content="This handbook represents the best of our collective knowledge on management and serves as the foundation of our internal training program here at Clearbit."
     />
     <meta
       name="og:description"
-      content="SWR is a React Hooks library for data fetching. SWR first returns the data from cache (stale), then sends the fetch request (revalidate), and finally comes with the up-to-date data again."
+      content="This handbook represents the best of our collective knowledge on management and serves as the foundation of our internal training program here at Clearbit."
     />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@vercel" />
-    <meta
-      name="twitter:image"
-      content="https://assets.vercel.com/image/upload/v1572282926/swr/twitter-card.jpg"
-    />
+    <meta name="twitter:site" content="@clearbit" />
     <meta
       name="og:title"
-      content="SWR: React Hooks for Data Fetching"
+      content="The Manager's Handbook"
     />
-    <meta name="og:url" content="https://swr.vercel.com" />
-    <meta
-      name="og:image"
-      content="https://assets.vercel.com/image/upload/v1572282926/swr/twitter-card.jpg"
-    />
-    <meta name="apple-mobile-web-app-title" content="SWR" />
+    <meta name="og:url" content="https://themanagershandbook.com" />
+    <meta name="apple-mobile-web-app-title" content="Manager's Handbook" />
   </>,
-  footerText: <a href="https://vercel.com/?utm_source=swr" target="_blank" rel="noopener" className="inline-flex items-center no-underline text-current font-semibold">
+  footerText: <a href="https://vercel.com/?utm_source=managers-handbook" target="_blank" rel="noopener" className="inline-flex items-center no-underline text-current font-semibold">
     <span className="mr-1">Powered by</span><span><Vercel/></span>
   </a>
 }

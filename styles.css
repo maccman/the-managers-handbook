@@ -11,3 +11,13 @@
 code {
   @apply text-sm;
 }
+
+blockquote {
+  @apply bg-gray-300 px-6 py-4 mt-2 rounded-md;
+  margin-top: 1rem !important;
+}
+
+blockquote p {
+  @apply leading-6;
+  margin: 0;
+}
