@@ -10,6 +10,10 @@ const Vercel = ({ height = 20 }) => (
 
 export default {
   titleSuffix: ' – The Manager\'s Handbook',
+  github: null,
+  siteGithub: null,
+  footerText: 'MIT 2020 © Clearbit',
+  footerEditOnGitHubLink: false,
   logo: <>
     <span className="mx-2 font-bold hidden md:inline tracking-wide text-2xl">The Manager's Handbook</span>
   </>,
@@ -39,7 +43,5 @@ export default {
     <meta name="og:url" content="https://themanagershandbook.com" />
     <meta name="apple-mobile-web-app-title" content="Manager's Handbook" />
   </>,
-  footerText: <a href="https://vercel.com/?utm_source=managers-handbook" target="_blank" rel="noopener" className="inline-flex items-center no-underline text-current font-semibold">
-    <span className="mr-1">Powered by</span><span><Vercel/></span>
-  </a>
+  footerText: ''
 }
