@@ -23,6 +23,15 @@ const nextConfig = {
       },
     ],
   },
+
+  async rewrites() {
+    return [
+      {
+        source: '/service-worker.js',
+        destination: '/_next/static/service-worker.js',
+      },
+    ]
+  },
 }
 
 module.exports = withOffline(withNextra(nextConfig))
