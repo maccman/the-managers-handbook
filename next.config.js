@@ -16,9 +16,9 @@ const nextConfig = {
       },
       {
         urlPattern: /^https?.*/,
-        handler: 'StaleWhileRevalidate',
+        handler: 'NetworkFirst',
         options: {
-          cacheName: 'revalidateOfflineCache',
+          cacheName: 'networkFirstCache',
         },
       },
     ],
