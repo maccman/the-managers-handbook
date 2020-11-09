@@ -8,16 +8,3 @@
   @apply not-sr-only fixed ml-6 top-0 bg-white text-lg px-6 py-2 mt-2 outline-none shadow-outline z-50;
 }
 
-code {
-  @apply text-sm;
-}
-
-blockquote {
-  @apply bg-gray-300 px-6 py-4 mt-2 rounded-md;
-  margin-top: 1rem !important;
-}
-
-blockquote p {
-  @apply leading-6;
-  margin: 0;
-}
