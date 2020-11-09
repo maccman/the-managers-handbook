@@ -37,8 +37,16 @@ export default {
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@clearbit" />
     <meta
+      name="twitter:image"
+      content="https://themanagershandbook.com/cover/square-3000x3000.png"
+    />
+    <meta
       name="og:title"
       content="The Manager's Handbook"
+    />
+    <meta
+      name="og:image"
+      content="https://themanagershandbook.com/cover/square-3000x3000.png"
     />
     <meta name="og:url" content="https://themanagershandbook.com" />
     <meta name="apple-mobile-web-app-title" content="Manager's Handbook" />
