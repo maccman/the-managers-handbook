@@ -8,3 +8,42 @@
   @apply not-sr-only fixed ml-6 top-0 bg-white text-lg px-6 py-2 mt-2 outline-none shadow-outline z-50;
 }
 
+content table {
+  width: 100%;
+  table-layout: auto;
+  text-align: left;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+content table thead {
+  color: #18181b;
+  font-weight: 600;
+  border-bottom-width: 1px;
+  border-bottom-color: #d4d4d8;
+}
+
+content table thead th {
+  padding: .8em .6em;
+}
+
+content table thead th:first-child {
+  padding-left: 0;
+}
+
+content table tbody tr {
+  border-bottom-width: 1px;
+  border-bottom-color: #e4e4e7;
+}
+
+content table tbody td {
+  padding: .8em .6em;
+  @apply truncate;
+
+  /* Gets the cell to truncate */
+  max-width: 1px;
+}
+
+content table tbody td:first-child {
+  padding-left: 0;
+}
