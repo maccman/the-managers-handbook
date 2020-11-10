@@ -10,6 +10,8 @@
 
 content table {
   width: 100%;
+  overflow: auto;
+  display: block;
   table-layout: auto;
   text-align: left;
   margin-top: 2em;
@@ -41,7 +43,7 @@ content table tbody td {
   @apply truncate;
 
   /* Gets the cell to truncate */
-  max-width: 1px;
+  max-width: 300px;
 }
 
 content table tbody td:first-child {
