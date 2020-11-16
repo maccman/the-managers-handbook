@@ -1,0 +1,127 @@
+---
+title: Internal communication
+---
+
+import Callout from 'components/callout'
+import Podcast from 'components/podcast'
+
+The larger a company grows, the harder it is to make sure everyone has the information they need. As the company scales, more information is generated. At this point, it is impossible for any one person to hold the whole state of the company in their head.
+
+There are a number of factors we need to consider when thinking through internal comms:
+
+- The relative priority of pieces of information, and who needs to know what and when
+- The synchronous or asynchronous nature of the communication channel (e.g. email vs. Slack)
+- The efficiency of the human brain processing different types of communication (e.g. written vs. verbal)
+- The purpose of the communication (knowledge transfer vs. behavior change)
+- The remote nature of this company
+
+Clearly not *all* information needs to be communicated *all* the time. We just need to make sure the right bits of information get to the right people over the right channels.
+
+We also have to consider the purpose of some types of communication, some of which is not to transfer information, but rather to motivate (e.g., rah-rah speeches at an all-hands). While written communication is a more efficient medium than verbal, it's less motivational.
+
+Lastly, when designing internal comms, we need to take into account the fact that people have different learning styles and information processing abilities.
+
+## Communication etiquette
+
+It is important to use etiquette when picking a channel to communicate, especially when asking for help. Consider how urgent your message really is. Can it wait a day to get a response? Everyone has problems. What makes your problems more important than whatever someone is currently working on?
+
+For example, one thing we see is a false sense of urgency given to sales deals or renewals that have suddenly become the company's “top priority.” Time sensitivity is important, but the vast majority of things are not urgent. Just because you have a vested interest in a deal going through doesn't mean you can stomp over other people's priorities.
+
+A good rule of thumb is to assume a **same-day response** unless the issue is actually urgent (e.g., the servers are down).
+
+If you are on the receiving end of this “false urgency,” it’s totally fine to push back and ask exactly how urgent something really is and what will happen if it’s delayed.
+
+### Distractions
+
+Communication can be incredibly distracting. While some jobs require a lot of communication (e.g., sales), some require deep periods of uninterrupted thinking time (e.g., engineering). If your role looks more like the latter, then turn off all notifications and keep Slack closed when you need to concentrate. Set expectations with your manager and colleagues that you won’t be available during certain hours, and to call you if something incredibly urgent comes up (e.g., the servers are down).
+
+<Callout>
+GitLab uses a company-wide tool called [Clockwise](http://www.getclockwise.com) that automatically stops Slack notifications during a defined “focus time.” It also syncs calendars to alert others if the employee is in a meeting, whether it's an internal or external meeting, without having to check the calendar.
+</Callout>
+
+### Storing information
+
+Transferring information is different from storing information. We have a 30-day retention policy in Slack. This is intentional. We want to encourage you to copy any information that needs to be retained into our wiki.
+
+### Communication and tasks
+
+Asking someone to do something over Slack is a good recipe to ensure that it doesn't get done. Slack makes a terrible task manager. You can hack it a little by using the “remind me about this message” feature, but ultimately tasks get lost in Slack.
+
+It turns out that humanity invented a pretty good task manager in the 1970s called email. Gmail has built-in algorithmic prioritization, starring, and tagging features that make it half decent at holding tasks—certainly much more than Slack. Once you have an agreement with someone, make it impeccable by recording it in Asana.
+
+Why not just skip emails and create tasks directly in Asana? Surely that would save time? There are two reasons:
+
+1. Generally it is better to set goals rather than tasks. Creating a task for your report directly in Asana assumes you know the answer to your query; your report should be the judge of that.
+2. Impeccable agreements have to be *mutually* agreed **upon because the owner is accountable*.* Creating a task directly removes that option.
+
+Why not skip tasks and just use emails? It’s important that all tasks are in one place (Asana), have a due date, an owner, and be commonly accessible across the company. Only a shared task manager fulfills those criteria.
+
+One exception to this is creating a task in Asana to serve as a topic for your next one-on-one; that's entirely fine.
+
+Please adhere to the following table when picking your communication channel. It can be tempting to just direct-message (DM) someone on Slack in order to move past your issue quickly. That, however, results in the tragedy of the commons. While one DM is fairly harmless, if we all act this way, the company grinds to a halt.
+
+| Communication type                                              | Communication medium                                                                             |
+|-----------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| To an individual, asking them to do something                   | Email                                                                                            |
+| To an individual about a complex private topic                  | Email                                                                                            |
+| A question you need help with                                   | Check the wiki first, then ask in the relevant team's Slack channel (avoid PMing)                |
+| To an individual about a topic that could be relevant to others | Slack Public Channel Message                                                                     |
+| To an individual about a private topic                          | Slack Private Message (PM)                                                                       |
+| A daily update about your work                                  | In your team's dedicated standup channel                                                         |
+| Any communication with an external party                        | Email (BCC a list)                                                                               |
+| Communication about a task                                      | In Asana on the task                                                                             |
+| Communication about code                                        | In GitHub                                                                                        |
+| An all-hands update about your department                       | In Slack's #all-hands channel                                                                    |
+| A full company update                                           | In Slack's #general channel, and reiterated at  all-hands                                        |
+| Communication that everyone absolutely needs to see             | In the New Tab section in Contentful, in the #general channel, and then reiterated at all-hands. |
+
+## External email communication
+
+We ask that by default any external email communication is BCCed to a list. This allows anyone in the company to search their inbox for communication and get context for, say, a sales call. You can find a description of all these lists in our wiki under *Email Lists*.
+
+## Conference calls
+
+We use Zoom for all video/audio conference calls. The quality is better than other tools we've used.
+
+We use [Chorus.ai](http://chorus.ai/) to record all external calls. This transcribes the audio content and makes it searchable. It's a very useful tool for the team because it lets us see in aggregate how customers are reacting to products we develop, how often competitors are mentioned, and other data. It is also invaluable for onboarding new employees, who can learn from the calls.
+
+We also use Zoom’s “record call” functionality for internal meetings too, especially for recurring meetings. You’ll notice that throughout our wiki we have links to Chorus/Zoom calls. We use this as a learning resource, to showcase great customer calls, and in case people need to catch up on meetings they missed.
+
+Add "record@chorus.ai” to your calendar event to easily record an external meeting.
+
+## Slack communication
+
+We use Slack for a lot of internal communication. Slack is a powerful tool, but it’s easy to misuse.
+
+- Avoid PMing (private messaging) people if possible. Ask someone a question in a public channel so others can learn from the answer.
+- Check the wiki first before asking a question.
+- Aggressively mute channels so that your unread messages count is accurate.
+- Default to using threads for topics.
+- We have a 30-day retention policy. Any information that needs to be retained beyond that should be in the wiki.
+
+| Name              | Description                                         |
+|-------------------|-----------------------------------------------------|
+| #shout-out        | Say something good about someone (keep it specific) |
+| #shipped          | Sales/CS deal closed, or a big feature shipped      |
+| #eng-shipped      | Something super-duper technical got shipped         |
+| #remote           | All things remote with a 24hr Zoom Room             |
+| #random           | Weird and random facts, off-topic binny discussions |
+| #general          | Announcement only                                   |
+| #all-hands        | Links and other resource posted during all hands    |
+| #devops           | Developer hangout                                   |
+| #sales            | Sales team hangout                                  |
+| #customer-success | CS team hangout                                     |
+| #growth           | Marketing team hangout                              |
+| #data             | Data team hangout                                   |
+| #data-support     | Ask data questions                                  |
+| #it-help          | Ask IT questions                                    |
+
+### Shipped
+
+It's important that we celebrate shipping; it's part of our culture. Whenever anything gets shipped, and this could be a closed sales deal, a renewal, or a big feature it gets posted in the #shipped Slack channel. Don't be shy with the emojis!
+
+![Shipped](/chapters/information-sharing/shipping.png)
+
+## Meeting communication
+
+We have a whole section on how to run a meeting ([Running meetings](/working-as-a-team/running-meetings)), so refer to that regarding how to communicate in a meeting.

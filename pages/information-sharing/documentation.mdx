@@ -1,0 +1,42 @@
+---
+title: Documentation
+---
+
+import Callout from 'components/callout'
+import Podcast from 'components/podcast'
+
+We've gotten a lot of advice over the years in building Clearbit, much of it instrumental to our success. Once such piece was given by Moisey Uretsky, cofounder of Digital Ocean, concerning documentation.
+
+According to Moisey, documentation was the secret to how Digital Ocean effectively scaled up the company, letting them rapidly hire hundreds of employees without grinding to a halt. Not only did they document every process inside the company, but they made documentation a core part of their culture.
+
+Why does documentation work so well? Let's consider the alternative: storing information in people's brains. Brains are meant for having ideas, not storing them. Brains have slow information retrieval (you have to interrupt someone), slow information transferral (verbal communication is much slower than written), and they also can't be searched.
+
+As the company scales, the amount of questions that need to be answered on a given day also scales. If your team members are asking each other these questions, rather than referencing documentation and teaching themselves, scaling is impossible.
+
+### Scaling documentation
+
+There are now over 6 million articles on Wikipedia. How did they manage to scale this up without sacrificing quality? Not through central planning, that's for sure. It is physically unfeasible for one person to plan or manage such a large amount of information. No, they scaled by distributing consensus among thousands of editors applying the same standards.
+
+What worked for Wikipedia will work for us. That means we are *all* responsible for documentation. If you create a product or process, document it in our wiki. If you have a question, and the wiki doesn't already contain the answer, document it. If you're onboarding and notice some documentation is wrong, fix it. We all need to become editors.
+
+### I have a question
+
+One of the most defining aspects of an organization is how it handles questions. A question is a failure of onboarding, since a perfect onboarding process would teach everyone everything (so they have no questions). However, since our onboarding will never be perfect, we need a system for handling questions when they invariably crop up.
+
+The system goes like this:
+
+1. You have a question.
+2. First, search our wiki to see if it contains the answer.
+3. If that doesn't work, search our [API docs](http://clearbit.com/docs), [attribute docs](http://clearbit.com/attributes), and [help center](https://help.clearbit.com/).
+4. If that doesn't work, ask the question in a public Slack channel (the most appropriate teams).
+5. Wait ten minutes.
+6. If that doesn't work, look up the person who's directly responsible via the AOR sheet ([Areas of responsibility](/information-sharing/areas-of-responsibility)), and private-message them on Slack.
+7. Lastly, and this is the most important step, *record* the answer in the wiki so the next person who has this question doesn't have to go through the entire process again.
+
+### Documenting processes
+
+Every single process at the company is documented in our wiki. From how to open the office on the weekend to how to run payroll to how to rollback a migration, it's all in there.
+
+As we covered earlier, this is much more efficient than storing these processes in people's brains. This approach comes with another advantage, though: reducing our [bus factor](https://deviq.com/bus-factor/).
+
+The more information that’s stored in people's heads, the more single points of failure we have. People aren't available for all sorts of reasons. They go on vacation, get sick, or leave the company. When they're unavailable, work gets blocked. We need to ensure that whatever is in their brains gets documented before that happens.
