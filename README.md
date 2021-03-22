@@ -6,3 +6,12 @@ To contribute, just clone this repository and run the following command to start
 yarn
 yarn dev
 ```
+
+
+## Merging in chapter checklist
+
+[] - Add H1
+[] - Replace notion.so links
+[] - Replace images with a publically available URL (search for us-west)
+[] - Make sure quotes are quotes (rather than Notion callouts)
+[] - Fix multi-line quotes (Notion export broken)
