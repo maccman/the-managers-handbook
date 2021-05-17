@@ -11,23 +11,22 @@
   "author": "Shu Ding",
   "license": "MIT",
   "dependencies": {
-    "@reach/skip-nav": "^0.10.5",
+    "@reach/skip-nav": "^0.15.0",
     "@types/hast": "^2.3.1",
-    "focus-visible": "^5.1.0",
-    "intersection-observer": "^0.10.0",
-    "markdown-to-jsx": "^6.11.4",
+    "focus-visible": "^5.2.0",
+    "intersection-observer": "^0.12.0",
+    "markdown-to-jsx": "^7.1.2",
     "next": "^10.2.0",
-    "next-offline": "^5.0.3",
-    "nextra": "^0.2.7",
+    "next-offline": "^5.0.5",
+    "nextra": "^0.4.4",
     "nextra-theme-book": "maccman/nextra-theme-book",
-    "nextra-theme-docs": "^0.2.7",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-intersection-observer": "^8.26.2"
+    "nextra-theme-docs": "^1.1.6",
+    "postcss": "^8.2.15",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-intersection-observer": "^8.32.0"
   },
   "devDependencies": {
-    "cssnano": "^4.1.10",
-    "postcss-preset-env": "^6.7.0",
-    "tailwindcss": "^1.4.6"
+    "tailwindcss": "^2.1.2"
   }
 }

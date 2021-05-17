@@ -5,7 +5,7 @@
 }
 
 [data-reach-skip-link]:focus {
-  @apply not-sr-only fixed ml-6 top-0 bg-white text-lg px-6 py-2 mt-2 outline-none shadow-outline z-50;
+  @apply not-sr-only fixed ml-6 top-0 bg-white text-lg px-6 py-2 mt-2 outline-none ring z-50;
 }
 
 content table {
@@ -26,7 +26,7 @@ content table thead {
 }
 
 content table thead th {
-  padding: .8em .6em;
+  padding: 0.8em 0.6em;
 }
 
 content table thead th:first-child {
@@ -39,7 +39,7 @@ content table tbody tr {
 }
 
 content table tbody td {
-  padding: .8em .6em;
+  padding: 0.8em 0.6em;
   @apply truncate;
 
   /* Gets the cell to truncate */
